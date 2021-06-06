@@ -3,3 +3,11 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/adangime/public_html/
     - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp description.php $DEPLOYPATH
+    - /bin/cp sendEmail.php $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R funciones_clases $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R librerias $DEPLOYPATH
+    - /bin/cp -R modales $DEPLOYPATH
