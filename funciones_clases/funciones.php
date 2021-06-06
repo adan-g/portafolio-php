@@ -2,9 +2,9 @@
 
 function conexionDB($sql){
 	$servidor="localhost";
-	$usuario="portafolioag";
+	$usuario="adangime_admin";
 	$password="portafolioag";
-	$bd="portafolio";
+	$bd="adangime_portafolio";
 
 	$conexion=mysqli_connect($servidor,$usuario,$password,$bd);
 	mysqli_query($conexion,"SET NAMES 'utf8' COLLATE 'utf8_general_ci'");
