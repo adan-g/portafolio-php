@@ -2,4 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/adangime/public_html/
-    - /bin/rsync -av portafolio/ $DEPLOYPATH
+    - /bin/rsync -av index.php/ $DEPLOYPATH
+    - /bin/rsync -av description.php/ $DEPLOYPATH
+    - /bin/rsync -av sendEmail.php/ $DEPLOYPATH
