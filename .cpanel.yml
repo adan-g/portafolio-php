@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/adangime/public_html/
-    - /bin/rsync -av css/ $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
