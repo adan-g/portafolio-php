@@ -99,9 +99,8 @@ function contactEmail(){
 
     http.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200){
-            if (this.responseText){
-                alert(this.responseText);
-                //alert('Mensaje enviado exitosamente');
+            if (this.responseText==1){
+                alert('Mensaje enviado exitosamente');
             }
         }
     }

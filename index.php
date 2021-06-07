@@ -42,7 +42,16 @@
 
     <div class="section_about_me">
         <img src="img/portafolio/Fondo-web.jpg" class="section_about_img">
-        <div class="section_about_me_title">Adan Gimenez <br> Desarrollador web</div>
+        <div class="section_about_me_text">
+            <div class="section_about_me_title">
+                Adan Gimenez <br> Desarrollador web
+            </div>
+
+            <div class="section_about_me_resume">
+                Apasionado por la tecnología e ideas que puedan cambiar nuestro entorno para mejor, siempre con ganas de seguir aprendiendo y mejorando en mi carrera profesional. Soy el tipo de persona que hace lo mejor posible para que las cosas queden bien hechas.
+            </div>
+        </div>
+        
     </div>
 
    <div class="section_experiency" id="experience">
