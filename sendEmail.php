@@ -3,9 +3,9 @@
    include 'funciones_clases/clases.php';
 
 
-   $to = $_POST['email'];
+   $to = 'gimenezadan1@gmail.com';
    $subject = $_POST['asunto'];
-   $message = $_POST['mensaje'];
+   $message = $_POST['mensaje'].$_POST['email'];
    $header = "From: gimenezadan1@gmail.com" . "\r\n";
    $header.= "X-Mailer: PHP/". phpversion();
 
